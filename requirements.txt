@@ -1,0 +1,10 @@
+pandas
+numpy
+pykrx
+pandas-ta-classic
+selenium
+webdriver-manager
+transformers
+torch
+kss
+openai

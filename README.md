@@ -25,7 +25,7 @@
     * **더미 변수 생성**: 최종 저장 시 `테마_중복_목록` 컬럼을 `naver_themes_bs4.csv` 기준의 원-핫 인코딩(더미 변수) 컬럼으로 자동 변환합니다.
 
  **주의**: 현재 이 로직은 상승한 것을 기반으로 Target Value를 구축하고 있습니다. 하락의 경우
- 'return 1 if t_plus_1_close > t_day_close else 0' 부분을 수정해야 합니다.
+ `return 1 if t_plus_1_close > t_day_close else 0` 부분을 수정해야 합니다.
  
 ## 🚀 사용 방법
 
